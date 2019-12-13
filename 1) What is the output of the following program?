@@ -1,0 +1,324 @@
+1) What is the output of the following program?
+
+str1 = '{2}, {1} and {0}'.format('a', 'b', 'c') 
+str2 = '{0}{1}{0}'.format('abra', 'cad') 
+print(str1, str2) 
+a) c, b and a abracad0
+b) a, b and c abracadabra
+c) a, b and c abracadcad
+d) c, b and a abracadabra
+Ans. (d)
+
+
+2) What is the output of the following program?
+
+line = "I'll come by then."
+eline = "" 
+for i in line: 
+    eline += chr(ord(i)+3) 
+print(eline)     
+a) L*oo frph e| wkhq1
+b) L*oo#frph#e|#wkhq1
+c) l*oo@frph@e|$wkhq1
+d) O*oo#Frph#E|#wKhq1
+Ans. (b)
+
+
+
+3) What is the output of the following?
+i = 1
+while True: 
+    if i % 0O7 == 0: 
+        break
+    print(i) 
+    i += 1
+1 2 3 4 5 6.
+1 2 3 4 5 6 7.
+error.
+None of these
+Output:
+
+1. 1 2 3 4 5 6
+
+
+
+4) What is the output of the following program?
+
+x = ['ab', 'cd'] 
+for i in x: 
+    i.upper() 
+print(x) 
+
+Output:
+['ab', 'cd']
+
+
+
+5) What is the output of the following program?
+
+for i in [1, 2, 3, 4][::-1]: 
+    print (i) 
+Output:
+
+4
+3
+2
+1
+
+
+
+6)list1 = [1, 2, 3, 4, 5] 
+  list2 = list1 
+  
+list2[0] = 0; 
+  
+print "list1= : ", list1 #statement 2 
+Output:
+
+list1= :  [0, 2, 3, 4, 5]
+
+
+
+7)
+print 'C:\\inside C directory' # statement1 
+print r'C:\\inside C directory' # statement2 
+
+Output:
+
+C:\inside C directory
+C:\\inside C directory
+
+3. What is the output of the following?
+my_string = 'digitallync'
+for i in range(my_string): 
+    print(i) 
+0 1 2 3 … 12
+digitallync
+None
+Error
+Output:
+
+4. Error
+
+
+
+8) What will be the output of the following program ?
+
+tuple1 = (1, 2, 4, 3) 
+tuple2 = (1, 2, 3, 4) 
+print(tuple1 < tuple2) 
+Options:
+
+Error
+True
+False
+Unexpected
+Output:
+
+3. False
+
+
+
+5. What is the output of the following?
+
+i = 5
+while True:
+    if i%0O11 == 0:
+        break
+    print(i)
+    i += 1
+a) 5 6 7 8 9 10
+b) 5 6 7 8
+c) 5 6
+d) error
+Answer: b
+
+
+
+
+10. What is the output of the following?
+
+True = False
+while True:
+    print(True)
+    break
+a) True
+b) False
+c) None
+d) none of the mentioned
+Answer: d
+
+
+
+
+3. What is the output of the following?
+
+x = (i for i in range(3))
+for i in x:
+    print(i)
+a) 0 1 2
+b) error
+c) 0 1 2 0 1 2
+d) none of the mentioned
+Answer: a
+
+
+
+8. What is the output of the following?
+
+a = [0, 1, 2, 3]
+for a[0] in a:
+    print(a[0])
+a) 0 1 2 3
+b) 0 1 2 2
+c) 3 3 3 3
+d) error
+Answer: a
+
+
+x = [i**+1 for i in range(3)]; print(x);
+a) [0, 1, 2].
+b) [1, 2, 5].
+c) error, **+ is not a valid operator
+d) error, ‘;’ is not allowed
+
+Answer: a
+
+
+
+9. What is the output of the following?
+
+print([if i%2==0: i; else: i+1; for i in range(4)])
+a) [0, 2, 2, 4].
+b) [1, 1, 3, 3].
+c) error
+d) none of the mentioned
+Answer: c
+
+
+
+
+9.	What is the output of the following piece of code?
+
+>>> a=(2,3,1,5)
+>>> a.sort()
+>>> a
+a)	(1,2,3,5)
+b)	(2,3,1,5)
+c)	None
+d)	Error, tuple has no attribute sort
+Answer: d
+
+
+
+4.	What is the output of the following snippet of code?
+
+total={}
+def insert(items):
+    if items in total:
+        total[items] += 1
+    else:
+        total[items] = 1
+insert('Apple')
+insert('Ball')
+insert('Apple')
+print (len(total))
+a) 3
+b) 1
+c) 2
+d) 0
+Answer: c
+
+
+
+6.	What is the output of the following snippet of code?
+
+numbers = {}
+letters = {}
+comb = {}
+numbers[1] = 56
+numbers[3] = 7
+letters[4] = 'B'
+comb['Numbers'] = numbers
+comb['Letters'] = letters
+print(comb)
+a)	Error, dictionary in a dictionary can’t exist
+b)	‘Numbers’: {1: 56, 3: 7}
+c)	{‘Numbers’: {1: 56}, ‘Letters’: {4: ‘B’}}
+d)	{‘Numbers’: {1: 56, 3: 7}, ‘Letters’: {4: ‘B’}}
+Answer: d
+
+
+
+8. What is the result of the expression shown below if x=56.236?
+
+print("%.2f"%x)
+a) 56.00
+b) 56.24
+c) 56.23
+d) 0056.236
+Answer: b
+
+
+
+10. The expression shown below results in an error. State whether this statement is true or false.
+
+print("-%5d0",989)
+a) True
+b) False
+Answer: b
+
+
+2. How many elements are in m?
+
+m = [[x, y] for x in range(0, 4) for y in range(0, 4)]
+a) 8
+b) 12
+c) 16
+d) 32
+Answer: c
+
+
+
+7. What will be the output?
+
+def m(list):
+    v = list[0]
+    for e in list:
+      if v < e: v = e
+    return v
+ 
+values = [[3, 4, 5, 1], [33, 6, 1, 2]]
+ 
+for row in values: 
+    print(m(row), end = " ")
+a) 3 33
+b) 1 1
+c) 5 6
+d) 5 33
+Answer: d
+
+
+10. What will be the output?
+
+points = [[1, 2], [3, 1.5], [0.5, 0.5]]
+points.sort()
+print(points)
+a) [[1, 2], [3, 1.5], [0.5, 0.5]].
+b) [[3, 1.5], [1, 2], [0.5, 0.5]].
+c) [[0.5, 0.5], [1, 2], [3, 1.5]].
+d) [[0.5, 0.5], [3, 1.5], [1, 2]].
+Answer: c
+
+
+13.	What is the output of the following piece of code when executed in Python shell?
+
+>>> import collections
+>>> a=dict()
+>>> a=collections.defaultdict(str)
+>>> a['A']
+a)	An exception is thrown since the dictionary is empty
+b)	‘ ‘
+c)	‘A’
+d)	0
+Answer: b

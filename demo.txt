@@ -1,0 +1,8 @@
+python
+mysql
+java
+PHP 
+machine 
+learning 
+digitallync
+python
